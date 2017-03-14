@@ -1,0 +1,26 @@
+{
+  "name": "pg-php",
+  "version": "0.1.0",
+  "main": "server.js",
+  "description": "My project",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriz/pg-php.git"
+  },
+  "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
+  "config": {
+    "port": "8001"
+  },
+  "scripts": {
+    "start": "node server",
+    "pub": "npm version patch && npm publish && git push"
+  },
+  "keywords": [
+    "pg-php"
+  ],
+  "bugs": {
+    "url": "https://github.com/dmitriz/pg-php/issues"
+  },
+  "homepage": "https://github.com/dmitriz/pg-php#readme"
+}
